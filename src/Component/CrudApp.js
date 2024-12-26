@@ -18,7 +18,6 @@ export default class CrudApp extends Component {
 
     componentDidMount() {
         this.fetchUsers();
-
     };
     fetchUsers = () => {
         fetch("https://676a3a7a863eaa5ac0ddb69d.mockapi.io/users")
@@ -70,7 +69,8 @@ export default class CrudApp extends Component {
             userMotherName: user.userMotherName,
             userEmail: user.userEmail,
             userDOB: user.userDOB,
-            editId: user.id
+            editId :user.id
+       
         });
         console.log("user edit successfully")
     };
@@ -168,7 +168,7 @@ export default class CrudApp extends Component {
                 <Table className='table-dark  mx-auto mt-5' bordered hover>
                     <thead>
                         <tr>
-                            <th>Id</th>
+                            <th>Sr. No.</th>
                             <th>Your Name</th>
                             <th>Father Name</th>
                             <th>Mother Name</th>
