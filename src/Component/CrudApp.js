@@ -166,7 +166,7 @@ export default class CrudApp extends Component {
                 <Table className="table-dark mx-auto mt-5" bordered hover>
                     <thead>
                         <tr>
-                            <th>Id</th>
+                            <th>Id No.</th>
                             <th>Your Name</th>
                             <th>Father Name</th>
                             <th>Mother Name</th>
